@@ -15,7 +15,7 @@ jobs:
           ref: main
       - uses: actions/setup-node@v3
         with:
-          node-version: '20'
+          node-version: '24'
       - name: 'Install CLI'
         run: npm install @salesforce/cli --location=global
       - run: sf --version
